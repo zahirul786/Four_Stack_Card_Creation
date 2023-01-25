@@ -11,3 +11,4 @@ https://user-images.githubusercontent.com/114215046/214600800-272a230c-5cb9-4c53
 
 ## Each card haS a 'X' button to delete the card from the stack. 
 ## The Maximum limit of cards in each stack is 8.
+## Alart will be occured when an user will press enter button with blank input.
