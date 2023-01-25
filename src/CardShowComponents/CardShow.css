@@ -1,0 +1,115 @@
+.redCard-show,
+.blueCard-show,
+.greenCard-show,
+.blackCard-show {
+    width: 75%;
+    height: 13vh;
+    border: 2px solid snow;
+    border-radius: 4px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.actions .redEdit {
+    background-color: red;
+    border-style: none;
+}
+
+.actions .redDelete {
+    background-color: red;
+    border-style: none;
+    font-size: 13px;
+}
+
+.actions .greenEdit {
+    background-color: green;
+    border-style: none;
+}
+
+.actions .greenDelete {
+    background-color: green;
+    border-style: none;
+    font-size: 13px;
+}
+
+
+.actions .blueEdit {
+    background-color: blue;
+    border-style: none;
+}
+
+.actions .blueDelete {
+    background-color: blue;
+    border-style: none;
+    font-size: 13px;
+}
+
+
+.actions .blackEdit {
+    background-color: #fcecec00;
+    border-style: none;
+}
+
+.actions .blackDelete {
+    background-color: #fcecec00;
+    border-style: none;
+    font-size: 13px;
+}
+
+
+
+.editIcon {
+    width: 8px;
+    height: 11px;
+}
+
+.actions {
+    align-self: flex-end;
+}
+
+.Content {
+    overflow-wrap: break-word;
+    align-self: center;
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+.edit-blackCard,
+.edit-blueCard,
+.edit-greenCard,
+.edit-redCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 5px;
+}
+
+.edit-primaryBlack,
+.edit-primaryBlue,
+.edit-primaryGreen,
+.edit-primaryRed {
+    width: 40%;
+    border-style: none;
+    border-radius: 4px;
+    font-weight: 300;
+}
+
+.redCard-show {
+    background-color: red;
+}
+
+.blueCard-show {
+    background-color: blue;
+}
+
+.greenCard-show {
+    background-color: green;
+}
+
+.blackCard-show {
+    background-color: #000000a3;
+}
